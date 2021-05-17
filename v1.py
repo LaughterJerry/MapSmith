@@ -5,11 +5,12 @@ import time
 import json
 import copy
 import pygame
+
 #from tools import events
 #from tools import main_file_types
 
 """
-DunGen 5.0
+Mapsmith 5.0
 
 Coding style: Functional
 purpose: produce maps for rpg maker mv, w*h in size, x*y number of maps

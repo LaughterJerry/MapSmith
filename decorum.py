@@ -15,6 +15,7 @@ def add_trees(width, height, inmap):
 				else:
 					pass
 
+
 			else:
 				if inmap[y][x] and inmap[y+1][x]:
 					if match:

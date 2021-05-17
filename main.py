@@ -81,7 +81,7 @@ cellular.generate_noise_map(tree_map, int(width/2),height,cellular.generate_odds
 
 tools.mask_overlay(int(width/2), height, water_map, tree_map)
 
-#carves a path through the randomly generated noise to form a path through the forest
+#carves a path through the  randomly generated noise to form a path through the forest
 line = tools.linear_interp([0,60], [80,60])
 
 for point in line:

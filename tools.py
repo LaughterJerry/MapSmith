@@ -8,6 +8,7 @@ def clear_square(inmap, pos, radius, dest):
 			except:
 				pass
 	#return inmap
+	
 
 def linear_interp(begin, end):
 	total_steps = end[0]-begin[0]

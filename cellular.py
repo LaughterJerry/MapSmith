@@ -11,6 +11,7 @@ def generate_noise_map(inmap, width, height, selection_list):
 		for x in range(width):
 			inmap[y].append(random.choice(selection_list))
 
+
 def cycle_cell(width, height, inmap, padding, ruleset):
 	outmap = []
 	for map_y_pos in range(height):
